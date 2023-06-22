@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/USER/AndroidStudioProjects/DScrabbleTimer/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2115" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/DScrabbleTimer/app/src/main/res/layout/activity_anagram_front_page.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/DScrabbleTimer/app/src/main/res/layout/activity_anagramer.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/DScrabbleTimer/app/src/main/res/layout/activity_anagramff.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/DScrabbleTimer/app/src/main/res/layout/activity_dictionary.xml" value="0.16" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/DScrabbleTimer/app/src/main/res/layout/activity_first.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/DScrabbleTimer/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/DScrabbleTimer/app/src/main/res/layout/activity_on_boarding.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/DScrabbleTimer/app/src/main/res/layout/activity_on_boarding2.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/DScrabbleTimer/app/src/main/res/layout/activity_tile_tracker.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/DScrabbleTimer/app/src/main/res/layout/activity_tile_tracking.xml" value="0.18" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/DScrabbleTimer/app/src/main/res/layout/activity_timer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/DScrabbleTimer/app/src/main/res/layout/activity_timer_front_page.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/DScrabbleTimer/app/src/main/res/layout/activity_word_checker.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/DScrabbleTimer/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1995" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/DScrabbleTimer/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1995" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

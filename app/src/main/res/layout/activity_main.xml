@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_timer"
+        android:layout_width="123dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="144dp"
+        android:text="Timer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_word_check"
+        android:layout_width="123dp"
+        android:layout_height="63dp"
+        android:text="Word Check"
+        app:layout_constraintBottom_toTopOf="@+id/button_anagram_searcher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_timer" />
+
+    <Button
+        android:id="@+id/button_anagram_searcher"
+        android:layout_width="123dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="144dp"
+        android:text="Anagram Searcher"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

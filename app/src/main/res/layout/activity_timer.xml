@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TimerActivity">
+
+    <TextView
+        android:id="@+id/textView_time_Remaining1"
+        android:layout_width="259dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="72dp"
+        android:rotation="180"
+        android:text="25:00"
+        android:textSize="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_add1" />
+
+    <TextView
+        android:id="@+id/textView_time_Remaining2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="72dp"
+        android:text="25:00"
+        android:textSize="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_add2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_add2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="40dp"
+        android:text="Add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_add1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:rotation="180"
+        android:text="Add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_word_checker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="90"
+        android:text="Word Check"
+        app:layout_constraintBottom_toTopOf="@+id/textView_time_Remaining2"
+        app:layout_constraintEnd_toStartOf="@+id/switch_gameClock"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_time_Remaining1" />
+
+    <Button
+        android:id="@+id/button_tile_tracker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="90"
+        android:text="Tile Tracker"
+        app:layout_constraintBottom_toTopOf="@+id/textView_time_Remaining2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/switch_gameClock"
+        app:layout_constraintTop_toBottomOf="@+id/textView_time_Remaining1" />
+
+    <EditText
+        android:id="@+id/editTextNumber_total_score1"
+        android:layout_width="128dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Total Score"
+        android:inputType="number"
+        android:rotation="180"
+        app:layout_constraintEnd_toStartOf="@+id/button_add1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumber_move_score1"
+        android:layout_width="128dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Move's score"
+        android:inputType="number"
+        android:rotation="180"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.424"
+        app:layout_constraintStart_toEndOf="@+id/button_add1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumber_move_score2"
+        android:layout_width="128dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:hint="Move's score"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_add2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumber_total_score2"
+        android:layout_width="128dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:hint="Total score"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_add2" />
+
+    <Switch
+        android:id="@+id/switch_gameClock"
+        android:layout_width="100dp"
+        android:layout_height="59dp"
+        android:text="Pause"
+        app:layout_constraintBottom_toTopOf="@+id/textView_time_Remaining2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_time_Remaining1" />
+
+    <Switch
+        android:id="@+id/switch_player1"
+        android:layout_width="126dp"
+        android:layout_height="55dp"
+        android:rotation="180"
+        android:text="Switch"
+        app:layout_constraintBottom_toTopOf="@+id/textView_time_Remaining1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_add1" />
+
+    <Switch
+        android:id="@+id/switch_player2"
+        android:layout_width="126dp"
+        android:layout_height="55dp"
+        android:text="Switch"
+        app:layout_constraintBottom_toTopOf="@+id/button_add2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_time_Remaining2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
